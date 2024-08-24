@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: 061039772474.dkr.ecr.eu-west-1.amazonaws.com/checkpoint
+  repository: 061039772474.dkr.ecr.eu-west-1.amazonaws.com/company
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: counter-service-test

@@ -11,7 +11,7 @@ on:
     
 env:
   AWS_REGION: eu-west-1
-  ECR_REPOSITORY: checkpoint  
+  ECR_REPOSITORY: company  
   HELM_CHART_PATH: helm 
   APP: counter-service
 
