@@ -42,8 +42,6 @@ securityContext: {}
 service:
   type: LoadBalancer
   port: 80
-  annotations: 
-    service.beta.kubernetes.io/aws-load-balancer-security-groups: sg-0d43876e36ed2041f
 ingress:
   enabled: false
   className: ""
